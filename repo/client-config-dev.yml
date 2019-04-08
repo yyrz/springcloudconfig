@@ -4,4 +4,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info #暴露所有端点 默认是info和health
+        include: refresh,health,info,bus-refresh #暴露所有端点 默认是info和health
