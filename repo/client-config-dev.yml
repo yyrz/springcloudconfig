@@ -1,0 +1,7 @@
+foo : 1111111111
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info #暴露所有端点 默认是info和health
